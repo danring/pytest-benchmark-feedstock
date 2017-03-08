@@ -18,11 +18,13 @@ requirements:
     - python
     - setuptools
     - pytest >=2.6
+    - statistics  # [py<34]
 
   run:
     - python
     - setuptools
     - pytest >=2.6
+    - statistics  # [py<34]
 
 test:
   imports:
