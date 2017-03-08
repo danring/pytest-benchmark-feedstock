@@ -27,6 +27,8 @@ requirements:
 test:
   imports:
     - pytest_benchmark
+  commands:
+    - "py.test --traceconfig | grep pytest-benchmark-{{version}}"
 
 about:
   home: https://github.com/ionelmc/pytest-benchmark
